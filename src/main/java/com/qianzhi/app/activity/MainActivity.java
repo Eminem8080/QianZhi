@@ -1,4 +1,4 @@
-package com.qianzhi.app.v1;
+package com.qianzhi.app.activity;
 
 import android.app.Activity;
 import android.app.FragmentManager;
@@ -10,6 +10,7 @@ import android.view.View;
 import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.view.annotation.ViewInject;
 import com.lidroid.xutils.view.annotation.event.OnClick;
+
 
 
 public class MainActivity extends Activity {
@@ -166,4 +167,9 @@ public class MainActivity extends Activity {
         personalicon.setBackgroundColor(Color.WHITE);
     }
 
+
+
+
 }
+
+

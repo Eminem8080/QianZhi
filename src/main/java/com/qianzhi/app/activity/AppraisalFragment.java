@@ -1,4 +1,4 @@
-package com.qianzhi.app.v1;
+package com.qianzhi.app.activity;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -9,10 +9,10 @@ import android.view.ViewGroup;
 /**
  * Created by admin on 2015/4/21.
  */
-public class PersonalFragment extends Fragment {
+public class AppraisalFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View personalFragment = inflater.inflate(R.layout.personal_layout, container, false);
-        return personalFragment;
+        View appraisalFragment = inflater.inflate(R.layout.appraisal_layout, container, false);
+        return appraisalFragment;
     }
 }

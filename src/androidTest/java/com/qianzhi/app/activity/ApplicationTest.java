@@ -1,4 +1,4 @@
-package com.qianzhi.app.v1;
+package com.qianzhi.app.activity;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
